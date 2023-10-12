@@ -15,6 +15,7 @@ public class BuscaProduto {
                 .build();
 
         HttpResponse<String> response;
+
         try {
             response = HttpClient
                     .newHttpClient()
