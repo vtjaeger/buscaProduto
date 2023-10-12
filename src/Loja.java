@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Chances {
-    public void contabiliza(){
-        int chancesMaximas = 5;
+public class Loja {
+    public void buscas(){
+        int buscasMaximas = 5;
 
-        for (int i = 0; i < chancesMaximas; i++) {
+        for (int i = 0; i < buscasMaximas; i++) {
             Scanner scanner = new Scanner(System.in);
             int id = scanner.nextInt();
 
